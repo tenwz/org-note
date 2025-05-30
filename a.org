@@ -1,13 +1,16 @@
 * 英格利希尔
-------
 一个命令行工具，使用 OpenAI 的 GPT-3.5 将英文指令翻译成 shell 命令，使终端作更加直观和易于访问。
 
 ** 特征
-------
 - 将自然语言转换为 shell 命令
 - 适用于 macOS 和 Linux
 - 提供每个命令的详细说明
 - 执行前需要确认
 - 为方便起见，可同时作为 和 命令englishelle
+ +BEGIN_SRC python
+def greet(name):
+  print(f"Hello, {name}!")
+greet("World")
++END_SRC
 
   
